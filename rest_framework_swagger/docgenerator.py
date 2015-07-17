@@ -214,7 +214,7 @@ class DocumentationGenerator(object):
             if serializer_name is not None:
                 return serializer_name
 
-            return 'object'
+            return ''
 
     def _get_serializer_set(self, apis):
         """
